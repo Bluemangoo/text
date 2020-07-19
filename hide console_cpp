@@ -1,0 +1,6 @@
+	HWND hwnd;
+	hwnd=FindWindow("ConsoleWindowClass",NULL);
+	if(hwnd)
+	{
+		ShowWindow(hwnd,SW_HIDE);
+	}
